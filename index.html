@@ -5,32 +5,52 @@
         <script src="js/scripts.js"></script>
         <meta charset="utf-8">
         <title>
-            Lorem Ipsum
+            Home
         </title>
     </head>
     <body>
-        <img src="img/csc106_banner.jpg">
-        <table>
-            <tr>
-                <td><a href="index.html"><img id="homebutton" src="img/home.png"></a></td>
-                <td><a href="pages/js.html"><img id="javascriptbutton" src="img/javascripts.png"></a></td>
-                <td><a href="pages/apps.html"><img id="appsbutton" src="img/apps.png"></a></td>
-                <td><a href="pages/about.html"><img id="aboutbutton" src="img/about.png"></a></td>
-            </tr>
-        </table>
-        <h1 id="header1">
-            Welcome to my webpage!
-        </h1>
-        <p>
-            I have taken multiple web programming classes in the past.<br>
-            I've had experience with HTML, CSS, and a little JavaScript <br>
-            and JQuery. <br>
-            <br>
-            However, when I hit highschool, I let my skill gather dust<br>
-            And I haven't done much programming since then.<br>
-            <br>
-            I am looking forward to reconnecting with web design, and<br>
-            hopefully learning more than I have before.
-        </p>
+        <div id="bodyWrapper">
+            <div id="contentWrapper">
+                <img src="img/banner.png">
+                <div id="navWrapper">
+                    <table id="navTable">
+                        <tr>
+                            <td>
+                                <a href="index.html">
+                                    <img class="navButton" src="img/home.png" onmouseover="this.src='img/homeHover.png';" onmouseout="this.src='img/home.png';">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="pages/javascript.html">
+                                    <img class="navButton" src="img/javascript.png" onmouseover="this.src='img/javascriptHover.png';" onmouseout="this.src='img/javascript.png';">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="pages/apps.html">
+                                    <img class="navButton" src="img/apps.png" onmouseover="this.src='img/appsHover.png';" onmouseout="this.src='img/apps.png';">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="pages/aboutme.html">
+                                    <img class="navButton" src="img/aboutme.png" onmouseover="this.src='img/aboutmeHover.png';" onmouseout="this.src='img/aboutme.png';">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="contentBody">
+                    <h1 id="headline">
+                        Welcome to my website!
+                    </h1>
+                    <p id="bodyParagraph">
+                        This page includes HTML, CSS, and a touch of JavaScript. <br>
+                        It's a very simple design with only four colors used. <br>
+                        <br>
+                        Instead of using Pixlr for everything, I opted to use <br>
+                        a program I am far more familiar with called Inkscape. <br>
+                    </p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

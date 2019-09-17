@@ -1,15 +1,74 @@
-#homebutton {
-    
-    padding-right: 61px;
-
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../img/backgroundArt.png");
+    background-size: 100%;
+    background-color: white;
 }
-#javascriptbutton {
-    
-    padding-right: 61px;
-
+#bodyWrapper {
+    text-align: center;
 }
-#appsbutton {
-    
-    padding-right: 61px;
-    
+#contentWrapper {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+#contentBody {
+    padding: 10px;
+    margin: 0px;
+    background-color: #b3b3b359;
+    color: #666666ff;
+    text-align: center;
+}
+#navWrapper {
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    text-align: center;
+}
+.navButton {
+    height: 40px;
+    width: auto;
+}
+#headline {
+    color: #666666ff;
+}
+#bodyParagraph {
+    color: #666666ff;
+}
+#navTable {
+    /*width: 100%;*/
+    display: inline-block;
+}
+.aboutmePhoto {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 25px;
+}
+#gallery {
+    border: 5px #666666ff solid;
+    position: absolute;
+    height: 335px;
+    width: 175px;
+    margin-left: 50px;
+    border-radius: 25px;
+}
+#gabriel_ives {
+    padding-bottom: 0px;
+}
+/*.aboutmeContainer {
+    border: 5px #666666ff solid;
+    height: 175px;
+    width: 175px;
+    float: right;
+}*/
+.hobbiesPictures {
+    border: 5px #666666ff solid;
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+    border-radius: 25px;
 }
