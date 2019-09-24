@@ -1,0 +1,1 @@
+var list = document.getElementByClass("aboutmePhoto")
