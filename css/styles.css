@@ -77,3 +77,6 @@ body {
     width: fit-content;
     float: right;
 }
+#scriptImg {
+    height: 500px;
+}
